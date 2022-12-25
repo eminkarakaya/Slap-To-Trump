@@ -13,10 +13,9 @@ public class Climbing : MonoBehaviour
     }
     private void Update()
     {
-        //transform.position += transform.up*Time.deltaTime*speed;
+        transform.position += transform.up*Time.deltaTime*speed;
         HorizontalMove();
         transform.position = AngleTo(currentAngle);
-        
     }
     private void HorizontalMove()
     {

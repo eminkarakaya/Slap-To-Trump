@@ -6,4 +6,5 @@ using UnityEngine;
 public class PlayerInput : ScriptableObject
 {
     public float horizontalInput;
+    public bool isClick;
 }

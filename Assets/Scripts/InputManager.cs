@@ -5,9 +5,11 @@ using UnityEngine;
 public class InputManager : MonoBehaviour
 {
     [SerializeField] private PlayerInput input;
+
     private void Update()
     {
         input.horizontalInput = Input.GetAxis("Horizontal");
+        input.isClick = Input.GetMouseButtonDown(0);
         //if (Input.touchCount > 0)
         //{
         //    Touch touch = Input.GetTouch(0);
