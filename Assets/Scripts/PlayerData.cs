@@ -4,6 +4,6 @@ using UnityEngine;
 [CreateAssetMenu(menuName ="PlayerData/PlayerData")]
 public class PlayerData : ScriptableObject
 {
-    public int damage, maxHp, maxStamina;
+    public int damage, maxHp, maxEnergy,energyPerAttack,rateOfIncrease;
 
 }

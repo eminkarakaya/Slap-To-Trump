@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName ="Input/Input")]
-public class PlayerInput : ScriptableObject
+[CreateAssetMenu(menuName ="Input/PlayerInput")]
+public class PlayerInput : InputBase
 {
     public float horizontalInput;
-    public bool isClick;
 }

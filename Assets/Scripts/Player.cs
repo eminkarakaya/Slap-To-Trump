@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
     public static Player instance;
     [SerializeField] private ClimbState _climbState;
     public static event System.Action OnWalk;
+    
     public SlapState slapState;
     public WalkState walkState;
     public ClimbFinishState climbFinishState;
@@ -27,7 +28,6 @@ public class Player : MonoBehaviour
     private void Start()
     {
         anim = GetComponent<Animator>();
-
     }
     private void Update()
     {
